@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Esercizio37": {
+    "ESERCIZIO28": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/esercizio37",
+            "outputPath": "dist/esercizio28",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Esercizio37:build:production"
+              "browserTarget": "ESERCIZIO28:build:production"
             },
             "development": {
-              "browserTarget": "Esercizio37:build:development"
+              "browserTarget": "ESERCIZIO28:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Esercizio37:build"
+            "browserTarget": "ESERCIZIO28:build"
           }
         },
         "test": {
@@ -105,6 +105,6 @@
     }
   },
   "cli": {
-    "analytics": "4f891190-b511-48f6-9500-e6be8229f7f7"
+    "analytics": "04da5d31-66b3-4207-be96-8baa3610646c"
   }
 }
